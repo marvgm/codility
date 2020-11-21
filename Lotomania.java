@@ -10,12 +10,18 @@ public class Lotomania {
     public static void main(String[] args) throws IOException {
 
         //sorteados por concurso : acessar https://www.xloterias.com.br/lotomania/
+        Integer[] sorteio2119 = {1, 4, 7, 9, 12, 13, 19, 23, 32, 33, 43, 44, 48, 64, 78, 79, 82, 88, 89, 91};
+        Integer[] sorteio2118 = {2, 10, 12, 16, 19, 46, 51, 52, 57, 64, 71, 72, 75, 80, 81, 82, 84, 88, 99, 0};
+        Integer[] sorteio2117 = {5, 22, 30, 34, 35, 39, 44, 49, 55, 58, 68, 75, 76, 78, 84, 85, 88, 94, 95, 96};
         Integer[] sorteio2116 = {2, 5 ,7, 14, 20, 23, 39, 44, 48, 50, 63, 64, 78, 80, 81, 82, 83, 90, 94, 0};
         Integer[] sorteio2115 = {4, 7, 8, 11, 15, 17, 19, 20, 24, 32, 36, 41, 43, 44, 46, 48, 60, 76, 78, 86};
         Integer[] sorteio2114 = {4, 5, 10, 13,23, 24, 25, 29, 37, 40, 43, 44, 46, 49, 54, 56, 65, 93, 98, 99};
         Integer[] sorteio2113 = {9, 14, 20, 25, 26, 33, 35, 36, 49, 50, 55, 58, 59, 66, 71, 75, 76, 87, 94, 99};
         Integer[] sorteio2112 = {4, 17, 23, 25, 31, 36, 38, 40, 42, 52, 56, 59, 71, 78, 82, 83, 84, 92, 97, 98};
 
+        addSorteados(2119 , sorteio2119);
+        addSorteados(2118 , sorteio2118);
+        addSorteados(2117 , sorteio2117);
         addSorteados(2116 , sorteio2116);
         addSorteados(2115 , sorteio2115);
         addSorteados(2114 , sorteio2114);
